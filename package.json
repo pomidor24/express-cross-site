@@ -1,0 +1,11 @@
+{
+    "name": "express-cross-site",
+    "description": "Middleware for handling cross site attack",
+    "version" : "0.0.1",
+    "author": "Roman Drapeko <roman.drapeko@gmail.com>",
+    "dependencies": {"express": ">= 2.0.0"},
+    "keywords": ["express", "csrf", "cross site"],
+    "engines": {"node": ">= 0.4.0"},
+    "repository": "git://github.com/drapeko/express-cross-site.git",
+    "main" : "index"   
+}
