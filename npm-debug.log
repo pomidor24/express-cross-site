@@ -1,0 +1,249 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+info using npm@1.0.22
+info using node@v0.4.10
+verbose config file /home/drapeko/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose publish [ '.' ]
+verbose cache add [ '.', undefined ]
+silly testEngine { name: 'express-cross-site',
+silly testEngine   description: 'Middleware for handling cross site attack',
+silly testEngine   version: '0.0.1',
+silly testEngine   author: 
+silly testEngine    { name: 'Roman Drapeko',
+silly testEngine      email: 'roman.drapeko@gmail.com' },
+silly testEngine   dependencies: { express: '>= 2.0.0' },
+silly testEngine   keywords: [ 'express', 'csrf', 'cross site' ],
+silly testEngine   engines: { node: '>= 0.4.0' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/drapeko/express-cross-site.git' },
+silly testEngine   main: 'index',
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: 'package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'express-cross-site@0.0.1',
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.22',
+silly testEngine   _nodeVersion: 'v0.4.10',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/home/drapeko/workspace/repo/express-cross-site' }
+verbose caching package.json
+verbose loadDefaults express-cross-site@0.0.1
+verbose pack /home/drapeko/workspace/repo/express-cross-site /tmp/npm-1314445086196/1314445086196-0.7769822566770017/tmp.tgz
+verbose mkdir walkDirs /tmp
+verbose mkdir walkDirs /tmp/npm-1314445086196
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1314445086196'
+verbose mkdir walkDirs /tmp/npm-1314445086196/1314445086196-0.7769822566770017
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1314445086196/1314445086196-0.7769822566770017'
+verbose mkdir done: /tmp/npm-1314445086196/1314445086196-0.7769822566770017 755
+verbose mkdir'ed /tmp/npm-1314445086196/1314445086196-0.7769822566770017
+verbose tar about to write tar and gzip it.
+silly tar args [ '-cvf',
+silly tar args   '-',
+silly tar args   'express-cross-site/README',
+silly tar args   'express-cross-site/package.json',
+silly tar args   'express-cross-site/index.js',
+silly tar args   'express-cross-site/lib/express-cross-site.js' ]
+verbose success tar -cvf - <file list elided>
+verbose success gzip "--stdout"
+verbose mkdir walkDirs /tmp
+verbose mkdir walkDirs /tmp/npm-1314445086196
+verbose mkdir walkDirs /tmp/npm-1314445086196/1314445086196-0.7769822566770017
+verbose mkdir walkDirs /tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents'
+verbose mkdir walkDirs /tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents/___package.npm
+verbose mkdir (expected) error ENOENT, No such file or directory '/tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents/___package.npm'
+verbose mkdir done: /tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/tmp/npm-1314445086196/1314445086196-0.7769822566770017/tmp.tgz"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents/___package.npm"
+silly asyncMap in gTP /tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents/___package.npm/express-cross-site/
+silly asyncMap in gTP /tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents/___package.npm/express-cross-site/README
+silly asyncMap in gTP /tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents/___package.npm/express-cross-site/package.json
+silly asyncMap in gTP /tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents/___package.npm/express-cross-site/index.js
+silly asyncMap in gTP /tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents/___package.npm/express-cross-site/lib/
+silly asyncMap in gTP /tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents/___package.npm/express-cross-site/lib/express-cross-site.js
+verbose gunzed /tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents/___package.npm/express-cross-site
+verbose rm'ed /tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents/package
+verbose renamed [ '/tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents/___package.npm/express-cross-site',
+verbose renamed   '/tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents/package' ]
+silly testEngine { name: 'express-cross-site',
+silly testEngine   description: 'Middleware for handling cross site attack',
+silly testEngine   version: '0.0.1',
+silly testEngine   author: 
+silly testEngine    { name: 'Roman Drapeko',
+silly testEngine      email: 'roman.drapeko@gmail.com' },
+silly testEngine   dependencies: { express: '>= 2.0.0' },
+silly testEngine   keywords: [ 'express', 'csrf', 'cross site' ],
+silly testEngine   engines: { node: '>= 0.4.0' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/drapeko/express-cross-site.git' },
+silly testEngine   main: 'index',
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'express-cross-site@0.0.1',
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.22',
+silly testEngine   _nodeVersion: 'v0.4.10',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents/package' }
+verbose caching /tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents/package/package.json
+verbose loadDefaults express-cross-site@0.0.1
+verbose tarball contents [ 'package' ]
+verbose from cache /tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents/package/package.json
+verbose pack /tmp/npm-1314445086196/1314445086196-0.7769822566770017/contents/package /home/drapeko/.npm/express-cross-site/0.0.1/package.tgz
+verbose mkdir'ed /home/drapeko/.npm/express-cross-site/0.0.1
+verbose tar about to write tar and gzip it.
+silly tar args [ '-cvf',
+silly tar args   '-',
+silly tar args   'package/README',
+silly tar args   'package/package.json',
+silly tar args   'package/index.js',
+silly tar args   'package/lib/express-cross-site.js' ]
+verbose success tar -cvf - <file list elided>
+verbose success gzip "--stdout"
+verbose mkdir walkDirs /home
+verbose mkdir walkDirs /home/drapeko
+verbose mkdir walkDirs /home/drapeko/.npm
+verbose mkdir walkDirs /home/drapeko/.npm/express-cross-site
+verbose mkdir walkDirs /home/drapeko/.npm/express-cross-site/0.0.1
+verbose mkdir walkDirs /home/drapeko/.npm/express-cross-site/0.0.1/___package.npm
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/drapeko/.npm/express-cross-site/0.0.1/___package.npm'
+verbose mkdir done: /home/drapeko/.npm/express-cross-site/0.0.1/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/drapeko/.npm/express-cross-site/0.0.1/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/home/drapeko/.npm/express-cross-site/0.0.1/package.tgz"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/home/drapeko/.npm/express-cross-site/0.0.1/___package.npm"
+silly asyncMap in gTP /home/drapeko/.npm/express-cross-site/0.0.1/___package.npm/package/
+silly asyncMap in gTP /home/drapeko/.npm/express-cross-site/0.0.1/___package.npm/package/README
+silly asyncMap in gTP /home/drapeko/.npm/express-cross-site/0.0.1/___package.npm/package/package.json
+silly asyncMap in gTP /home/drapeko/.npm/express-cross-site/0.0.1/___package.npm/package/index.js
+silly asyncMap in gTP /home/drapeko/.npm/express-cross-site/0.0.1/___package.npm/package/lib/
+silly asyncMap in gTP /home/drapeko/.npm/express-cross-site/0.0.1/___package.npm/package/lib/express-cross-site.js
+verbose gunzed /home/drapeko/.npm/express-cross-site/0.0.1/___package.npm/package
+verbose rm'ed /home/drapeko/.npm/express-cross-site/0.0.1/package
+verbose renamed [ '/home/drapeko/.npm/express-cross-site/0.0.1/___package.npm/package',
+verbose renamed   '/home/drapeko/.npm/express-cross-site/0.0.1/package' ]
+silly testEngine { name: 'express-cross-site',
+silly testEngine   description: 'Middleware for handling cross site attack',
+silly testEngine   version: '0.0.1',
+silly testEngine   author: 
+silly testEngine    { name: 'Roman Drapeko',
+silly testEngine      email: 'roman.drapeko@gmail.com' },
+silly testEngine   dependencies: { express: '>= 2.0.0' },
+silly testEngine   keywords: [ 'express', 'csrf', 'cross site' ],
+silly testEngine   engines: { node: '>= 0.4.0' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/drapeko/express-cross-site.git' },
+silly testEngine   main: 'index',
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/home/drapeko/.npm/express-cross-site/0.0.1/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'express-cross-site@0.0.1',
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.22',
+silly testEngine   _nodeVersion: 'v0.4.10',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: 
+silly testEngine    { shasum: 'dbbbcf6e7ab0205f4655515b5da6dc6ff554bf6f',
+silly testEngine      tarball: 'http://registry.npmjs.org/express-cross-site/-/express-cross-site-0.0.1.tgz' },
+silly testEngine   scripts: {} }
+verbose caching /home/drapeko/.npm/express-cross-site/0.0.1/package/package.json
+verbose loadDefaults express-cross-site@0.0.1
+silly updated sha bytes 1596
+info shasum dbbbcf6e7ab0205f4655515b5da6dc6ff554bf6f
+info shasum /home/drapeko/.npm/express-cross-site/0.0.1/package.tgz
+verbose from cache /home/drapeko/.npm/express-cross-site/0.0.1/package/package.json
+verbose chmod /home/drapeko/.npm/express-cross-site/0.0.1/package.tgz 644
+silly publish { name: 'express-cross-site',
+silly publish   description: 'Middleware for handling cross site attack',
+silly publish   version: '0.0.1',
+silly publish   author: 
+silly publish    { name: 'Roman Drapeko',
+silly publish      email: 'roman.drapeko@gmail.com' },
+silly publish   dependencies: { express: '>= 2.0.0' },
+silly publish   keywords: [ 'express', 'csrf', 'cross site' ],
+silly publish   engines: { node: '>= 0.4.0' },
+silly publish   repository: 
+silly publish    { type: 'git',
+silly publish      url: 'git://github.com/drapeko/express-cross-site.git' },
+silly publish   main: 'index',
+silly publish   _npmJsonOpts: 
+silly publish    { file: '/home/drapeko/.npm/express-cross-site/0.0.1/package/package.json',
+silly publish      wscript: false,
+silly publish      contributors: false,
+silly publish      serverjs: false },
+silly publish   _id: 'express-cross-site@0.0.1',
+silly publish   devDependencies: {},
+silly publish   _engineSupported: true,
+silly publish   _npmVersion: '1.0.22',
+silly publish   _nodeVersion: 'v0.4.10',
+silly publish   _defaultsLoaded: true,
+silly publish   dist: 
+silly publish    { shasum: 'dbbbcf6e7ab0205f4655515b5da6dc6ff554bf6f',
+silly publish      tarball: 'http://registry.npmjs.org/express-cross-site/-/express-cross-site-0.0.1.tgz' },
+silly publish   scripts: {} }
+info prepublish express-cross-site@0.0.1
+verbose PUT express-cross-site
+verbose raw, before any munging express-cross-site
+verbose url resolving [ 'https://registry.npmjs.org/',
+verbose url resolving   './express-cross-site' ]
+verbose url resolved https://registry.npmjs.org/express-cross-site
+verbose url parsed { protocol: 'https:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'https://registry.npmjs.org/express-cross-site',
+verbose url parsed   pathname: '/express-cross-site' }
+silly writing json { _id: 'express-cross-site',
+silly writing json   name: 'express-cross-site',
+silly writing json   description: 'Middleware for handling cross site attack',
+silly writing json   'dist-tags': {},
+silly writing json   versions: {},
+silly writing json   maintainers: [ { name: 'drapeko', email: 'roman.drapeko@gmail.com' } ] }
+verbose response https://registry.npmjs.org/express-cross-site
+silly chunk {"error":"conflict","reason":"Document update conflict."}
+silly chunk 
+verbose GET express-cross-site
+verbose raw, before any munging express-cross-site
+verbose url resolving [ 'https://registry.npmjs.org/',
+verbose url resolving   './express-cross-site' ]
+verbose url resolved https://registry.npmjs.org/express-cross-site
+verbose url parsed { protocol: 'https:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'https://registry.npmjs.org/express-cross-site',
+verbose url parsed   pathname: '/express-cross-site' }
+verbose response https://registry.npmjs.org/express-cross-site
+silly chunk {"_id":"express-cross-site","_rev":"3-8f2b1ddfb38bf126ae5a16e6b491439a","name":"express-cross-site","description":"Middleware for handling cross site attack","dist-tags":{"latest":"0.0.1"},"versions":{"0.0.1":{"name":"express-cross-site","description":"Middleware for handling cross site attack","version":"0.0.1","author":{"name":"Roman Drapeko","email":"roman.drapeko@gmail.com"},"dependencies":{"express":">= 2.0.0"},"keywords":["express","csrf","cross site"],"engines":{"node":">= 0.4.0"},"repository":{"type":"git","url":"git://github.com/drapeko/express-cross-site.git"},"main":"index","_npmJsonOpts":{"file":"/home/drapeko/.npm/express-cross-site/0.0.1/package/package.json","wscript":false,"contributors":false,"serverjs":false},"_id":"express-cross-site@0.0.1","devDependencies":{},"_engineSupported":true,"_npmVersion":"1.0.22","_nodeVersion":"v0.4.10","_defaultsLoaded":true,"dist":{"shasum":"6c22aaf82569fb6fec892ab6a998c582f827c6bf","tarball":"http://registry.npmjs.org/express-cross-site/-/express-cross-site-0.0.1.tgz"},"scripts":{},"maintainers":[{"name":"drapeko","email":"roman.drapeko@gmail.com"}],"directories":{}}},"maintainers":[{"name":"drapeko","email":"roman.drapeko@gmail.com"}],"time":{"0.0.1":"2011-08-20T11:45:37.651Z"},"author":
+silly chunk {"name":"Roman Drapeko","email":"roman.drapeko@gmail.com"},"repository":{"type":"git","url":"git://github.com/drapeko/express-cross-site.git"}}
+info Already published express-cross-site@0.0.1
+verbose uploading bin dists []
+ERR! publish fail Cannot publish over existing version.
+ERR! publish fail Bump the 'version' field, set the --force flag, or
+ERR! publish fail     npm unpublish 'express-cross-site@0.0.1'
+ERR! publish fail and try again
+ERR! 
+ERR! System Linux 2.6.38-8-generic
+ERR! command "node" "/usr/local/bin/npm" "publish"
+ERR! cwd /home/drapeko/workspace/repo/express-cross-site
+ERR! node -v v0.4.10
+ERR! npm -v 1.0.22
+verbose exit [ 1, true ]
