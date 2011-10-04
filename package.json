@@ -1,7 +1,7 @@
 {
     "name": "express-cross-site",
     "description": "Middleware for handling cross site attack",
-    "version" : "0.0.5",
+    "version" : "0.0.6",
     "author": "Roman Drapeko <roman.drapeko@gmail.com>",
     "dependencies": {"express": ">= 2.0.0"},
     "keywords": ["express", "csrf", "cross site"],
